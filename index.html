@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>OLARM V2</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+	rel="stylesheet">
+</head>
+<body>
+	<div class="contents">
+		<div class="left-info">
+			<div class="phone-container">
+				<h1>OLARM</h1>
+				<div class="contacts">
+					<div class="c-status">
+						<i class="material-icons" id="cid1">phone</i>
+						<div class="c1">
+							<span>John Doe</span>
+							<span>(555)555-5555</span>
+						</div>
+					</div>
+					<div class="c-status">
+						<i class="material-icons" id="cid2">phone</i>
+						<div class="c2">
+							<span>Jane Doe</span>
+							<span>(555)555-5555</span>
+						</div>
+					</div>
+					<div class="c-status">
+						<i class="material-icons" id="cid3">phone</i>
+						<div class="c3">
+							<span>Dave Doe</span>
+							<span>(555)555-5555</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="alarm-info">
+				<div class="timeOf">
+					<h3>Time Of Alarm</h3>
+					<p id="time">t-t-t-today junior</p>
+				</div>
+				<div class="trigger">
+					<h3>Alarm Triggered</h3>
+					<p id="triggered-alarm">Front Door</p>
+				</div>
+				<div class="logout">
+					<button class="logout-button" id="lbtn" disabled="true">Log Out</button>
+				</div>
+			</div>
+		</div>
+		<div class="main">
+			<div class="password">
+				<span class="password">GODIVA</span>
+			</div>
+			<div class="contact-info">
+				<div class="contact-head">
+					<img class="contact-picture" src="john_doe.png" alt="contact picture" height="107" width="107">
+					<div class="info">
+						<h4 class="contact-name">John Doe</h4>
+						<p class="information">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</div>
+					</div>
+				</div>
+				<div class="button">
+					<button class="emergency" onclick="Alert.render('alert')">EMERGENCY</button>
+					<button class="dismiss">DISMISS</button>
+				</div>
+			</div>
+			<div class="right-empty"></div>
+		</div>
+
+		<div class="container" id="dboxOverlay"></div>
+		<div id="dbox">
+			<div class="alert-container">
+				<h2 id="notice">INCOMING ALERT</h2>
+				<span id="timer"></span>
+				<button id="accept-btn" onclick="Alert.hideAlert()">ACCEPT</button>
+			</div></div>
+		</div>
+		<!-- <button onclick="Alert.render('alert')">Click</button> -->
+		<script type="text/javascript" src="main.js"></script>
+	</body>
+	<footer>
+		<div class="status">
+			<span class="server">Server Status: Connected</span>
+			<span class="phone">Phone Status: Connected</span>
+		</div>
+	</footer>
+	</html>
