@@ -1,0 +1,200 @@
+[
+	{
+		"olarmCust":[
+			{
+				"id":0,
+				"AccName":"John Doe",
+				"Password":"GODVIA",
+				"Address":"",
+				"Occupancy":3,
+				"EmergencyContact1": {
+					"Name":"John Doe",
+					"ContactPic":"face.png",
+					"Number":"(555)555-5555",
+					"MedicalRec":"INSERT MEDICAL RECORD HERE",
+					"Logs": [
+						{
+							"TimeStamp":"2017-01-13 12:02:17",
+							"LogInfo":"pretty self explanatory",
+						},
+						{
+							"TimeStamp":"2017-01-13 12:02:17",
+							"LogInfo":"pretty self explanatory",
+						}
+					]
+				},
+				"EmergencyContact2": {
+					"Name":"Jane Doe",
+					"ContactPic":"face.png",
+					"Number":"(555)555-5555",
+					"MedicalRec":"INSERT MEDICAL RECORD HERE",
+					"Logs": [
+						{
+							"TimeStamp":"2017-01-13 12:02:17",
+							"LogInfo":"pretty self explanatory",
+						},
+						{
+							"TimeStamp":"2017-01-13 12:02:17",
+							"LogInfo":"pretty self explanatory",
+						}
+					]
+				},
+				"EmergencyContact3": {
+					"Name":"Dave Doe",
+					"ContactPic":"face.png",
+					"Number":"(555)555-5555",
+					"MedicalRec":"INSERT MEDICAL RECORD HERE",
+					"Logs": [
+						{
+							"TimeStamp":"2017-01-13 12:02:17",
+							"LogInfo":"pretty self explanatory",
+						},
+						{
+							"TimeStamp":"2017-01-13 12:02:17",
+							"LogInfo":"pretty self explanatory",
+						}
+					]
+				},
+				"Alarms":[
+					{
+						"SerialNum":"1234",
+						"Type":"Alarm Brain",
+						"Name":"The Brain",
+						"Status":"Connected",
+						"Triggered":false
+					},
+					{
+						"SerialNum":"1234",
+						"Type":"Door Sensor",
+						"Name":"Front Door",
+						"Status":"Connected",
+						"Battery":"full",
+						"Triggered":false
+					},
+					{
+						"SerialNum":"4567",
+						"Type":"Door Sensor",
+						"Name":"Back Door",
+						"Status":"Connected",
+						"Battery":"full",
+						"Triggered":false
+					},
+					{
+						"SerialNum":"6431",
+						"Type":"Motion Sensor",
+						"Name":"Living Room",
+						"Status":"Connected",
+						"Battery":"full",
+						"Triggered":false
+					},
+					{
+						"SerialNum":"6431",
+						"Type":"Panic Button",
+						"Name":"John's Panic Button",
+						"Status":"Connected",
+						"Battery":"full",
+						"Triggered":false
+					}
+				],
+				"AccountStatus":"Active"
+			},
+			{
+				"id":1,
+				"AccName":"Andrew Solomon",
+				"Password":"ASDF",
+				"Address":"",
+				"Occupancy":5,
+				"EmergencyContact1": {
+					"Name":"John Doe",
+					"ContactPic":"face.png",
+					"Number":"(555)555-5555",
+					"MedicalRec":"INSERT MEDICAL RECORD HERE",
+					"Logs": [
+						{
+							"TimeStamp":"2017-01-13 12:02:17",
+							"LogInfo":"pretty self explanatory",
+						},
+						{
+							"TimeStamp":"2017-01-13 12:02:17",
+							"LogInfo":"pretty self explanatory",
+						}
+					]
+				},
+				"EmergencyContact2": {
+					"Name":"Jane Doe",
+					"ContactPic":"face.png",
+					"Number":"(555)555-5555",
+					"MedicalRec":"INSERT MEDICAL RECORD HERE",
+					"Logs": [
+						{
+							"TimeStamp":"2017-01-13 12:02:17",
+							"LogInfo":"pretty self explanatory",
+						},
+						{
+							"TimeStamp":"2017-01-13 12:02:17",
+							"LogInfo":"pretty self explanatory",
+						}
+					]
+				},
+				"EmergencyContact3": {
+					"Name":"Dave Doe",
+					"ContactPic":"face.png",
+					"Number":"(555)555-5555",
+					"MedicalRec":"INSERT MEDICAL RECORD HERE",
+					"Logs": [
+						{
+							"TimeStamp":"2017-01-13 12:02:17",
+							"LogInfo":"pretty self explanatory",
+						},
+						{
+							"TimeStamp":"2017-01-13 12:02:17",
+							"LogInfo":"pretty self explanatory",
+						}
+					]
+				},
+				"Alarms":[
+					{
+						"SerialNum":"1234",
+						"Type":"Alarm Brain",
+						"Name":"The Brain",
+						"Status":"Connected",
+						"Triggered":false
+					},
+					{
+						"SerialNum":"1234",
+						"Type":"Door Sensor",
+						"Name":"Front Door",
+						"Status":"Connected",
+						"Battery":"full",
+						"Triggered":false
+					},
+					{
+						"SerialNum":"4567",
+						"Type":"Door Sensor",
+						"Name":"Back Door",
+						"Status":"Connected",
+						"Battery":"full",
+						"Triggered":false
+					},
+					{
+						"SerialNum":"6431",
+						"Type":"Motion Sensor",
+						"Name":"Living Room",
+						"Status":"Connected",
+						"Battery":"full",
+						"Triggered":false
+					},
+					{
+						"SerialNum":"6431",
+						"Type":"Panic Button",
+						"Name":"John's Panic Button",
+						"Status":"Connected",
+						"Battery":"full",
+						"Triggered":false
+					}
+				],
+				"AccountStatus":"Active"
+			}
+		]
+	}
+]

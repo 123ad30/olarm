@@ -1,0 +1,22 @@
+AccName
+Password
+Address
+Occupancy
+info for contact 1
+	name
+	number
+	medical record
+	logs
+info for contact 2
+	name
+	number
+	medical record
+	logs
+info for contact 3
+	name
+	number
+	medical record
+	logs
+ListOfAlarms
+TimeTriggered
+AlarmTriggered
